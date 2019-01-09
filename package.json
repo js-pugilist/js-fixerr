@@ -1,6 +1,6 @@
 {
   "name": "js-fixerr",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "Lightweight and fast validation library for javascript",
   "main": "src/index.js",
   "scripts": {
