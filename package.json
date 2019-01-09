@@ -1,0 +1,27 @@
+{
+  "name": "js-fixerr",
+  "version": "2.1.8",
+  "description": "Lightweight and fast validation library for javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujsinghwd/js-fixerr.git"
+  },
+  "keywords": [
+    "javascript",
+    "validation",
+    "npmjs",
+    "validation",
+    "javascript",
+    "validation"
+  ],
+  "author": "Anuj Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anujsinghwd/js-fixerr/issues"
+  },
+  "homepage": "https://github.com/anujsinghwd/js-fixerr#readme"
+}
