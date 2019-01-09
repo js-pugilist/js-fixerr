@@ -177,3 +177,16 @@ Lightweight and fast validation library for javascript
     fixerr.isRoman('iv') // return true
     fixerr.isRoman('ER') // return false
 ```
+
+
+## Built With
+* [javascript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+
+## Authors
+* **Anuj Singh** - *Initial work* - [anujsinghwd](https://github.com/anujsinghwd)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Contribution
+Feel free to contribute
