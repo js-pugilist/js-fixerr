@@ -1,3 +1,10 @@
+/*
+ * Description : lightweight and fast vlidation library of js:  .
+ * @author Anuj SIngh
+ * @version 2.1.8
+ * Date: 01/10/2019
+ * 
+ */
 function isEmpty(val) {
     return ((val === undefined) || (val === null) || (typeof val === 'object' && Object.keys(val).length === 0) || (typeof val === 'string' && val.trim().length === 0)) ? true : false;
 }
