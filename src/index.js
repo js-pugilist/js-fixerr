@@ -1,7 +1,7 @@
 /*
  * Description : lightweight and fast vlidation library of js:  .
  * @author Anuj SIngh
- * @version 2.1.8
+ * @version 2.2.1
  * Date: 01/10/2019
  * 
  */
@@ -169,7 +169,12 @@ function isIPaddress(e) {
     return /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(e) ? !0 : !1
 }
 
+function isEqual(a, b) {
+    if(isEmpty(a) && isEmpty(b)) return false;
+    return (numberToString(a) === numberToString(b)) ? true : false;
+}
+
 module.exports = {
     min, max, isLength, isWhiteSpace, isSpecialChar, isAlphaNumeric, isMobile, isEmail, isDate, isTime,
-    isVowel, isUrl, isVideoUrl, isRoman, isBoolean, isIPaddress, isLeapYear, isMacAddress
+    isVowel, isUrl, isVideoUrl, isRoman, isBoolean, isIPaddress, isLeapYear, isMacAddress, isEqual
 }

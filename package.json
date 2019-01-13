@@ -1,10 +1,10 @@
 {
   "name": "js-fixerr",
-  "version": "2.1.9",
+  "version": "2.2.1",
   "description": "Lightweight and fast validation library for javascript",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test.js --prefix tests"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/anujsinghwd/js-fixerr/issues"
   },
-  "homepage": "https://github.com/anujsinghwd/js-fixerr#readme"
+  "homepage": "https://js-fixerr.js.org/"
 }

@@ -32,6 +32,7 @@ Lightweight and fast validation library for javascript
   - isIPaddress
   - isLeapYear
   - isMacAddress
+  - isEqual
 
 ### min
 *Validate if the input is smaller then the min value*
@@ -176,6 +177,13 @@ Lightweight and fast validation library for javascript
     fixerr.isRoman('IV') // return true
     fixerr.isRoman('iv') // return true
     fixerr.isRoman('ER') // return false
+```
+
+### isEqual
+*Comparing two values
+```jsx
+    fixerr.isEqual('sam','nam'); // return false
+    fixerr.isEqual('sam','sam'); // return true
 ```
 
 
