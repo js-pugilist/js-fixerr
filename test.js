@@ -1,3 +1,20 @@
-const fix = require('./src/index');
+const fixerr = require('./src/index');
 
-return fix.isEqual('25','25');
+console.log(fixerr.min('foobaar', 3));
+console.log(fixerr.max('foobaar', 6));
+console.log(fixerr.isLength('foobaar',{min:0, max:7}));
+console.log(fixerr.isWhiteSpace('foobaar'));
+console.log(fixerr.isSpecialChar('foo@$ba%ar'));
+console.log(fixerr.isAlphaNumeric('foobaar'));
+console.log(fixerr.isMobile(1234567890));
+console.log(fixerr.isEmail('jsfixerr@gmail.com'));
+console.log(fixerr.date('10/12/2017', { format: 'MM/DD/YYYY' }));
+console.log(fixerr.isVowel('a'));
+console.log(fixerr.isVideoUrl('https://www.youtube.com/watch?v=LyrqhruLhBA'));
+console.log(fixerr.isMacAddress('FF:FF:FF:FF:FF:FF'));
+console.log(fixerr.isLeapYear(2020));
+console.log(fixerr.isIPaddress('192.168.0.1'));
+console.log(fixerr.isVowel('asskdsdf'));
+console.log(fixerr.isBoolean(true));
+console.log(fixerr.isRoman('IV'));
+console.log(fix.isEqual('25','25'));

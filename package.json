@@ -4,7 +4,7 @@
   "description": "Lightweight and fast validation library for javascript",
   "main": "src/index.js",
   "scripts": {
-    "test": "node test.js --prefix tests"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
