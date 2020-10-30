@@ -1,5 +1,7 @@
 # js-fixerr
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3c699dde8ac34f3aab6677b4f8731367)](https://app.codacy.com/gh/js-pugilist/js-fixerr?utm_source=github.com&utm_medium=referral&utm_content=js-pugilist/js-fixerr&utm_campaign=Badge_Grade)
+
 Lightweight and fast validation library for javascript
 
 ## Installation
